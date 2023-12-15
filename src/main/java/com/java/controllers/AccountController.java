@@ -14,9 +14,7 @@ public class AccountController {
 
     @GetMapping("/login")
     public String loginGet(){
-        Account account = new Account();
-        Product p = new Product();
-        Agent a = new Agent();
+
         return "log/login";
     }
 
